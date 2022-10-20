@@ -1,7 +1,7 @@
 import React from "react";
 
-function FinalScore() {
+function Home() {
   return <div>FinalScore</div>;
 }
 
-export default FinalScore;
+export default Home;
