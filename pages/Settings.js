@@ -1,5 +1,11 @@
+import SelectedField from '../src/Components/SelectField'
+
 function Settings() {
-  return <div>Settings</div>;
+  return (
+    <form>
+      <SelectedField label="Category "/>
+    </form>
+  )
 }
 
 export default Settings;

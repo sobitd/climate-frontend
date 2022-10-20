@@ -11,7 +11,7 @@ function SelectField() {
 
   return (
     <Box marginTop={3} width="100%">
-        <FormControl>
+        <FormControl size="small">
             <InputLabel value={value} label={label} onChange={handleChange}></InputLabel>
             <Select>
                 <MenuItem>Options 1</MenuItem>
