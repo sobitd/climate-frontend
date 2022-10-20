@@ -2,13 +2,19 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Settings from '../pages/Settings'
 import Questions from '../pages/Questions'
 import FinalScore from '../pages/FinalScreen'
+import {Container, Typography } from "@mui/material";
+import { Box } from "@mui/system";
 
 function App() {
   return (
     <Router>
-      <Switch>
+      <Container maxWidth="sm">
+        <Box textAlign="center" marginTop={5}>
+        <Switch>
         <Route path="/">
+          <Typography variant="h2" fontWeight="bold">
           <Settings/>
+          </Typography>
         </Route>
         <Route path="/questions">
           <Questions />
@@ -17,6 +23,8 @@ function App() {
           <FinalScore/>
         </Route>
       </Switch>
+        </Box>
+      </Container>
     </Router>
   );
 }
