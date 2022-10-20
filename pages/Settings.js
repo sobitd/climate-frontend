@@ -2,7 +2,7 @@ import { Button } from '@mui/material';
 import SelectedField from '../src/Components/SelectField'
 
 function Settings() {
-  const handleSubmit = e = {
+  const handleSubmit = (e) = {
     e.preventDefault();
   }
 
