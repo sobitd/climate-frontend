@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Settings from '../pages/Settings'
 import Questions from '../pages/Questions'
-import FinalScreen from '../pages/FinalScreen'
+import FinalScore from '../pages/FinalScreen'
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
         <Route path="/questions">
           <Questions />
         </Route>
-        <Route path="/finalscreen">
-          <FinalScreen/>
+        <Route path="/score">
+          <FinalScore/>
         </Route>
       </Switch>
     </Router>
