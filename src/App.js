@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Settings from '../pages/Settings'
 import Questions from '../pages/Questions'
-import FinalScore from '../pages/FinalScreen'
+import Home from '../pages/Home'
 import {Container, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 
@@ -13,7 +13,7 @@ function App() {
         <Switch>
         <Route path="/">
           <Typography variant="h2" fontWeight="bold">
-          <Settings/>
+          <Home/>
           </Typography>
         </Route>
         <Route path="/questions">
