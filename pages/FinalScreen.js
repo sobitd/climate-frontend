@@ -1,7 +1,7 @@
 import React from "react";
 
-function FinalScrren() {
+function FinalScreen() {
   return <div>FinalScrren</div>;
 }
 
-export default FinalScrren;
+export default FinalScreen;
