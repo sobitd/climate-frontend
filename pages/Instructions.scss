@@ -1,3 +1,29 @@
-body{
-    background-color: blue;
+.instructions {
+    border: 1px solid darken(orange,50%);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: small large;
+
+
+    h1 {
+        color: #333;
+        font-size: medium;
+        text-align: center;
+    }
+    
+    .browser-default {
+        padding: 30px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
 }
+
+@media (max-width: 768px) {
+
+    .instructions {
+        width: 100%;
+    }
+}
+
+
