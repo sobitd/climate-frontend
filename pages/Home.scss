@@ -1,0 +1,28 @@
+
+#home {
+    background: grey;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    section{
+        background-color: green;
+        height: 80%;
+        width: 40%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    div > img {
+        height: 100px;
+        width: 100px;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: large;
+    }
+
+}
