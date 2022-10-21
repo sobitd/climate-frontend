@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Helmet from 'react-helmet'
 import { Link } from "react-router-dom";
-
+ 
 
 
 function Home() {
@@ -15,8 +15,8 @@ function Home() {
       <h1>Climate Quiz App</h1>
 
       <div className="auth-container">
-        <Link to="/login">Login</Link>
-        <Link to="/signup">Signup</Link>
+        <Link className="auth-button" to="/login">Login</Link>
+        <Link className="auth-button" to="/signup">Signup</Link>
       </div>
     </section>
 

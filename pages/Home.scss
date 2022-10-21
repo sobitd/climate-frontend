@@ -25,4 +25,21 @@
         font-size: large;
     }
 
+    .auth-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        color: orangered;
+    }
+
+    .auth-container .auth-button {
+        color: white;
+        cursor: pointer;
+        border-radius: 25px;
+        background-color: blue;
+        padding: 20px;
+        text-align: center;
+        width: 60%;                
+    }
+
 }
