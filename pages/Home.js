@@ -14,6 +14,8 @@ function Home() {
       </div>
       <h1>Climate Quiz App</h1>
 
+      <link to="/instructions">Help</link>
+
       <div className="auth-container">
         <Link className="auth-button" to="/login">Login</Link>
         <Link className="auth-button" to="/signup">Signup</Link>

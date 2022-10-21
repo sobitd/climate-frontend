@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Settings from '../pages/Settings'
-import Questions from '../pages/Questions'
+import Instructions from "../pages/Instructions";
 import Home from '../pages/Home'
 import {Container, Typography } from "@mui/material";
 import { Box } from "@mui/system";
@@ -16,8 +16,8 @@ function App() {
           <Home/>
           </Typography>
         </Route>
-        <Route path="/questions">
-          <Questions />
+        <Route path="/instructions">
+          <Instructions />
         </Route>
         <Route path="/score">
           <FinalScore/>
